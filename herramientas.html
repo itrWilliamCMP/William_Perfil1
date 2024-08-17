@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Herramientas para Cableado Estructurado</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f2f5;
+            color: #333;
+        }
+
+        header {
+            background-color: #0056b3;
+            padding: 10px 0;
+            color: #fff;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2em;
+        }
+
+        nav {
+            background-color: #004494;
+            padding: 10px 0;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        nav ul li {
+            display: inline-block;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 1.1em;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .section {
+            margin-bottom: 40px;
+        }
+
+        .section h2 {
+            color: #0056b3;
+            margin-top: 0;
+        }
+
+        .item {
+            margin-bottom: 20px;
+        }
+
+        .item img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .item h3 {
+            margin-top: 0;
+            color: #333;
+        }
+
+        .item p {
+            line-height: 1.6;
+            color: #666;
+        }
+        footer {
+            background-color: #0056b3;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+
+        footer p {
+            margin: 0;
+            font-size: 1em;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Herramientas para Cableado Estructurado</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="RedesActividad.html">Inicio</a></li>
+            <li><a href="pasivos.html">Componentes Pasivos</a></li>
+            <li><a href="activos.html">Componentes Activos</a></li>
+            <li><a href="cableado_horizontal.html">Cableado Horizontal</a></li>
+            <li><a href="cableado_vertical.html">Cableado Vertical</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="section">
+            <div class="item">
+                <h3>Ponchadora</h3>
+                <img src="https://www.digitalsolutions.com.sv/cdn/shop/files/Ponchadora-de-Cable-de-Red-Nexxt-Solutions-AW250NXT11.jpg?v=1701540249" alt="Ponchadora" width="400" lang="120">
+                <p>Es una herramienta de punción utilizado para empujar los hilos entre los pins de metal, permitiendo pelar al mismo tiempo el revestimiento del cable. Esto asegura una buena conexión eléctrica del cable con los pins que se encuentran dentro del Jack.</p>
+            </div>
+
+            <div class="item">
+                <h3>Crimpadora</h3>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXKGyhtAYCD4UXJohuQefjSDk3C3MdFxpw5A&s" alt="Crimpadora" width="400" lang="120">
+                <p>Una crimpadora es una herramienta que sirve para empalmar o encajar cables de transferencia de datos en diversos tipos de terminales, como por ejemplo conectores ethernet, telefónicos o para antenas de tv.
+                    De este modo, es posible unir alambres a piezas de metal o de otros materiales maleables a fin de formar una conexión sin la necesidad de utilizar soldaduras, lo cual las convierte en instrumentos bastante convenientes.</p>
+            </div>
+
+            <div class="item">
+                <h3>Desforradora</h3>
+                <img src="https://lemus.com.sv/product/390042/image" alt="Desforradora" width="400" lang="120">
+                <p>Es una herramienta eficiente e indispensable para la terminación de cables de fibra óptica. La cuchilla afilada está compuesta de súper aleación, adecuada para pelar longitudinalmente el cable de tubo suelto (Loose Tube).</p>
+            </div>
+
+            <div class="item">
+                <h3>Tester/Probador de Cables</h3>
+                <img src="data:image/jpeg;base64,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" alt="Tester de Cables" width="400" lang="120">
+                <p>Es la herramienta ideal para verificar que el armado de cables de red, coaxiales y telefónicos, sea confiable, profesional y de alta calidad.</p>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>William Alexander Campos Reyes - 20230079 - todos los derechos reservados</p>
+    </footer>
+</body>
+
+</html>

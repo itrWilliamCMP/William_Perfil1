@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cableado Horizontal</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f2f5;
+            color: #333;
+        }
+
+        header {
+            background-color: #0056b3;
+            padding: 10px 0;
+            color: #fff;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2em;
+        }
+
+        nav {
+            background-color: #004494;
+            padding: 10px 0;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        nav ul li {
+            display: inline-block;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 1.1em;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .section {
+            margin-bottom: 40px;
+        }
+
+        .section h2 {
+            color: #0056b3;
+            margin-top: 0;
+        }
+
+        .item {
+            margin-bottom: 20px;
+        }
+
+        .item img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .item h3 {
+            margin-top: 0;
+            color: #333;
+        }
+
+        .item p {
+            line-height: 1.6;
+            color: #666;
+        }
+        footer {
+            background-color: #0056b3;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+
+        footer p {
+            margin: 0;
+            font-size: 1em;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Cableado Horizontal</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="RedesActividad.html">Inicio</a></li>
+            <li><a href="pasivos.html">Componentes Pasivos</a></li>
+            <li><a href="activos.html">Componentes Activos</a></li>
+            <li><a href="herramientas.html">Herramientas</a></li>
+            <li><a href="cableado_vertical.html">Cableado Vertical</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="section">
+            <div class="item">
+                <h3>Cableado Horizontal</h3>
+                <img src="https://www.kin.energy/PAgina%20KINENERGY%20IMAGENES/Imagenes%20Blog/Art%C3%ADculos%202022/Representaci%C3%B3n-gr%C3%A1fica-de-cableado-estructurado-l1669859961181.png" alt="Cableado Horizontal" width="500" lang="120">
+                <p>La norma EIA/TIA 568A define el cableado horizontal de la siguiente forma: El sistema de cableado horizontal es la porción del sistema de cableado de telecomunicaciones que se extiende del área de trabajo al cuarto de telecomunicaciones o viceversa.</p>
+            </div>
+
+            <div class="item">
+                <h3>Tipos de Cables para el Cableado Horizontal</h3>
+                <p>Existen varios tipos de cables que se utilizan en el cableado horizontal, incluyendo:</p>
+                <ul>
+                    <li>Cable UTP: Unshielded Twisted Pair, el más común.</li>
+                    <img src="data:image/jpeg;base64,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" alt="Cable FTP" width="220" lang="120">
+                    <li>Cable FTP: Foiled Twisted Pair, incluye una lámina para reducir interferencias.</li>
+                    <img src="https://www.steren.com.sv/media/catalog/product/cache/b69086f136192bea7a4d681a8eaf533d/image/17272ae46/cable-ftp-cat5e.jpg" alt="Cable FTP" width="220" lang="120">
+                    <li>Cable STP: Shielded Twisted Pair, con mayor protección contra interferencias.</li>
+                    <img src="https://www.kroton.com.pe/wp-content/uploads/2016/12/9060.jpg" alt="Cable STP" width="220" lang="120">
+                </ul>
+                <p>Estos cables son elegidos dependiendo de las necesidades de la red y el entorno de instalación.</p>
+            </div>
+
+            <div class="item">
+                <h3>Normativa para Cableado (Clases A y B)</h3>
+                <p>El cableado de red debe cumplir con ciertas normativas que aseguran su correcto funcionamiento. Las configuraciones de cableado de clase A y B se refieren a los estándares de cableado que dictan cómo se deben organizar los cables dentro de un conector RJ45.</p>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>William Alexander Campos Reyes - 20230079 - todos los derechos reservados</p>
+    </footer>
+</body>
+
+</html>
